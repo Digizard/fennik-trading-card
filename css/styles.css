@@ -3,8 +3,7 @@
  ****************/
 
 body {
-  font-family: sans-serif;
-  font-size: 12px;
+  font: 12px sans-serif;
 }
 
 article,
@@ -22,6 +21,8 @@ div {
   width: 340px;
 }
 
+/*** Hover Effects ***/
+
 .card:hover .card-front {
   transform: rotateY(180deg);
 }
@@ -32,9 +33,9 @@ div {
 
 .card-front,
 .card-back {
+  backface-visibility: hidden;
   position: absolute;
   transition: transform 1s;
-  backface-visibility:hidden;
   width: 340px;
 }
 
@@ -103,7 +104,6 @@ h1 {
 
 .image-credit {
   background-color: rgba(0, 0, 0, 0.6);
-  /* background-color: black; */
   border-radius: 10px 0 0 0;
   bottom: -7px;
   color: white;
