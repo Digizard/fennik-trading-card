@@ -1,0 +1,138 @@
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+article,
+div {
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #f8c51b;
+  border: 5px solid #f8c51b;
+  border-radius: 10px;
+  width: 340px;
+}
+
+.card-inlay {
+  background-image: url(../assets/card-background.png);
+  border: 5px solid #f8c51b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 10px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+  /* margin: 10px auto 10px 0; */
+  margin: 0 auto 0 0;
+}
+
+.hit-points,
+.flame-energy {
+  line-height: 25px;
+}
+
+.hit-points {
+  font-size: 1.35em;
+  margin: 0 5px;
+}
+
+.flame-energy {
+  background-color: #f8c51b;
+  border: 1px solid #ea842a;
+  border-radius: 50%;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  width: 25px;
+}
+
+.illustration {
+  position: relative;
+}
+
+.image,
+.info {
+  border: 1px solid black;
+}
+
+.image-credit {
+  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: black; */
+  border-radius: 10px 0 0 0;
+  bottom: -7px;
+  color: white;
+  font-size: 0.9em;
+  opacity: 0.9;
+  padding: 5px;
+  position: absolute;
+  right: -1px;
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0.5);
+  /* color: #5c250a; */
+  color:  rgba(92, 37, 10, 0.9);
+  /* opacity: 0.5; */
+  padding: 10px;
+
+}
+
+.creature-feature,
+.description {
+  margin: 0;
+}
+
+.creature-feature {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.feature-name,
+.tech-name {
+  font-weight: bold;
+}
+
+.techniques {
+  font-size: 1.4em;
+  list-style: none;
+  padding: 0;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-cost {
+  display: flex;
+  margin: 15px 5px 0 0;
+  width: 45px;
+}
+
+.technique-energy {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+  width: 20px;
+}
+
+.tech-name {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.tech-damage {
+  text-align: center;
+  width: 45px;
+}
